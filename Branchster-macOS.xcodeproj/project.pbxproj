@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D9D1E82514A18E002F3862 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D9D1E72514A18E002F3862 /* AppDelegate.m */; };
+		03D9D1EA2514A190002F3862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D9D1E92514A190002F3862 /* Assets.xcassets */; };
+		03D9D1ED2514A190002F3862 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D9D1EB2514A190002F3862 /* MainMenu.xib */; };
+		03D9D1F02514A190002F3862 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D9D1EF2514A190002F3862 /* main.m */; };
+		03D9D1FB2514A191002F3862 /* Branchster_macOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D9D1FA2514A191002F3862 /* Branchster_macOSTests.m */; };
+		03D9D2062514A191002F3862 /* Branchster_macOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D9D2052514A191002F3862 /* Branchster_macOSUITests.m */; };
+		03D9D2192514A249002F3862 /* Branch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D9D2152514A22E002F3862 /* Branch.framework */; };
+		03D9D21A2514A249002F3862 /* Branch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03D9D2152514A22E002F3862 /* Branch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03D9D21C25150AAB002F3862 /* Branch.framework in Resources */ = {isa = PBXBuildFile; fileRef = 03D9D2152514A22E002F3862 /* Branch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03D9D1F72514A191002F3862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D9D1DB2514A18E002F3862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D9D1E22514A18E002F3862;
+			remoteInfo = "Branchster-macOS";
+		};
+		03D9D2022514A191002F3862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D9D1DB2514A18E002F3862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D9D1E22514A18E002F3862;
+			remoteInfo = "Branchster-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03D9D21B2514A249002F3862 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03D9D21A2514A249002F3862 /* Branch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03D9D1E32514A18E002F3862 /* Branchster-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Branchster-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D9D1E62514A18E002F3862 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03D9D1E72514A18E002F3862 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03D9D1E92514A190002F3862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03D9D1EC2514A190002F3862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03D9D1EE2514A190002F3862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D9D1EF2514A190002F3862 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03D9D1F12514A190002F3862 /* Branchster_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Branchster_macOS.entitlements; sourceTree = "<group>"; };
+		03D9D1F62514A191002F3862 /* Branchster-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Branchster-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D9D1FA2514A191002F3862 /* Branchster_macOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Branchster_macOSTests.m; sourceTree = "<group>"; };
+		03D9D1FC2514A191002F3862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D9D2012514A191002F3862 /* Branchster-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Branchster-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D9D2052514A191002F3862 /* Branchster_macOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Branchster_macOSUITests.m; sourceTree = "<group>"; };
+		03D9D2072514A191002F3862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D9D2152514A22E002F3862 /* Branch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Branch.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D9D1E02514A18E002F3862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D9D2192514A249002F3862 /* Branch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D9D1F32514A191002F3862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D9D1FE2514A191002F3862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D9D1DA2514A18E002F3862 = {
+			isa = PBXGroup;
+			children = (
+				03D9D1E52514A18E002F3862 /* Branchster-macOS */,
+				03D9D2132514A22E002F3862 /* Frameworks */,
+				03D9D1F92514A191002F3862 /* Branchster-macOSTests */,
+				03D9D2042514A191002F3862 /* Branchster-macOSUITests */,
+				03D9D1E42514A18E002F3862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03D9D1E42514A18E002F3862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03D9D1E32514A18E002F3862 /* Branchster-macOS.app */,
+				03D9D1F62514A191002F3862 /* Branchster-macOSTests.xctest */,
+				03D9D2012514A191002F3862 /* Branchster-macOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03D9D1E52514A18E002F3862 /* Branchster-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				03D9D1E62514A18E002F3862 /* AppDelegate.h */,
+				03D9D1E72514A18E002F3862 /* AppDelegate.m */,
+				03D9D1E92514A190002F3862 /* Assets.xcassets */,
+				03D9D1EB2514A190002F3862 /* MainMenu.xib */,
+				03D9D1EE2514A190002F3862 /* Info.plist */,
+				03D9D1EF2514A190002F3862 /* main.m */,
+				03D9D1F12514A190002F3862 /* Branchster_macOS.entitlements */,
+			);
+			path = "Branchster-macOS";
+			sourceTree = "<group>";
+		};
+		03D9D1F92514A191002F3862 /* Branchster-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				03D9D1FA2514A191002F3862 /* Branchster_macOSTests.m */,
+				03D9D1FC2514A191002F3862 /* Info.plist */,
+			);
+			path = "Branchster-macOSTests";
+			sourceTree = "<group>";
+		};
+		03D9D2042514A191002F3862 /* Branchster-macOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03D9D2052514A191002F3862 /* Branchster_macOSUITests.m */,
+				03D9D2072514A191002F3862 /* Info.plist */,
+			);
+			path = "Branchster-macOSUITests";
+			sourceTree = "<group>";
+		};
+		03D9D2132514A22E002F3862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03D9D2142514A22E002F3862 /* macOS */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		03D9D2142514A22E002F3862 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				03D9D2152514A22E002F3862 /* Branch.framework */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03D9D1E22514A18E002F3862 /* Branchster-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D9D20A2514A191002F3862 /* Build configuration list for PBXNativeTarget "Branchster-macOS" */;
+			buildPhases = (
+				03D9D1DF2514A18E002F3862 /* Sources */,
+				03D9D1E02514A18E002F3862 /* Frameworks */,
+				03D9D1E12514A18E002F3862 /* Resources */,
+				03D9D21B2514A249002F3862 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Branchster-macOS";
+			productName = "Branchster-macOS";
+			productReference = 03D9D1E32514A18E002F3862 /* Branchster-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03D9D1F52514A191002F3862 /* Branchster-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D9D20D2514A191002F3862 /* Build configuration list for PBXNativeTarget "Branchster-macOSTests" */;
+			buildPhases = (
+				03D9D1F22514A191002F3862 /* Sources */,
+				03D9D1F32514A191002F3862 /* Frameworks */,
+				03D9D1F42514A191002F3862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D9D1F82514A191002F3862 /* PBXTargetDependency */,
+			);
+			name = "Branchster-macOSTests";
+			productName = "Branchster-macOSTests";
+			productReference = 03D9D1F62514A191002F3862 /* Branchster-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03D9D2002514A191002F3862 /* Branchster-macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D9D2102514A191002F3862 /* Build configuration list for PBXNativeTarget "Branchster-macOSUITests" */;
+			buildPhases = (
+				03D9D1FD2514A191002F3862 /* Sources */,
+				03D9D1FE2514A191002F3862 /* Frameworks */,
+				03D9D1FF2514A191002F3862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D9D2032514A191002F3862 /* PBXTargetDependency */,
+			);
+			name = "Branchster-macOSUITests";
+			productName = "Branchster-macOSUITests";
+			productReference = 03D9D2012514A191002F3862 /* Branchster-macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03D9D1DB2514A18E002F3862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Branch;
+				TargetAttributes = {
+					03D9D1E22514A18E002F3862 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					03D9D1F52514A191002F3862 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 03D9D1E22514A18E002F3862;
+					};
+					03D9D2002514A191002F3862 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 03D9D1E22514A18E002F3862;
+					};
+				};
+			};
+			buildConfigurationList = 03D9D1DE2514A18E002F3862 /* Build configuration list for PBXProject "Branchster-macOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03D9D1DA2514A18E002F3862;
+			productRefGroup = 03D9D1E42514A18E002F3862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D9D1E22514A18E002F3862 /* Branchster-macOS */,
+				03D9D1F52514A191002F3862 /* Branchster-macOSTests */,
+				03D9D2002514A191002F3862 /* Branchster-macOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D9D1E12514A18E002F3862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D9D21C25150AAB002F3862 /* Branch.framework in Resources */,
+				03D9D1EA2514A190002F3862 /* Assets.xcassets in Resources */,
+				03D9D1ED2514A190002F3862 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D9D1F42514A191002F3862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D9D1FF2514A191002F3862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D9D1DF2514A18E002F3862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D9D1F02514A190002F3862 /* main.m in Sources */,
+				03D9D1E82514A18E002F3862 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D9D1F22514A191002F3862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D9D1FB2514A191002F3862 /* Branchster_macOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D9D1FD2514A191002F3862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D9D2062514A191002F3862 /* Branchster_macOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D9D1F82514A191002F3862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D9D1E22514A18E002F3862 /* Branchster-macOS */;
+			targetProxy = 03D9D1F72514A191002F3862 /* PBXContainerItemProxy */;
+		};
+		03D9D2032514A191002F3862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D9D1E22514A18E002F3862 /* Branchster-macOS */;
+			targetProxy = 03D9D2022514A191002F3862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03D9D1EB2514A190002F3862 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D9D1EC2514A190002F3862 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03D9D2082514A191002F3862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03D9D2092514A191002F3862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03D9D20B2514A191002F3862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Branchster-macOS/Branchster_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F3SPQJJL39;
+				ENABLE_HARDENED_RUNTIME = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/macOS",
+				);
+				INFOPLIST_FILE = "Branchster-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.branch.sdk.Branchster-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03D9D20C2514A191002F3862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Branchster-macOS/Branchster_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F3SPQJJL39;
+				ENABLE_HARDENED_RUNTIME = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/macOS",
+				);
+				INFOPLIST_FILE = "Branchster-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.branch.sdk.Branchster-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03D9D20E2514A191002F3862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F3SPQJJL39;
+				INFOPLIST_FILE = "Branchster-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.branch.sdk.Branchster-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Branchster-macOS.app/Contents/MacOS/Branchster-macOS";
+			};
+			name = Debug;
+		};
+		03D9D20F2514A191002F3862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F3SPQJJL39;
+				INFOPLIST_FILE = "Branchster-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.branch.sdk.Branchster-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Branchster-macOS.app/Contents/MacOS/Branchster-macOS";
+			};
+			name = Release;
+		};
+		03D9D2112514A191002F3862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F3SPQJJL39;
+				INFOPLIST_FILE = "Branchster-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.branch.sdk.Branchster-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Branchster-macOS";
+			};
+			name = Debug;
+		};
+		03D9D2122514A191002F3862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F3SPQJJL39;
+				INFOPLIST_FILE = "Branchster-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.branch.sdk.Branchster-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Branchster-macOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D9D1DE2514A18E002F3862 /* Build configuration list for PBXProject "Branchster-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D9D2082514A191002F3862 /* Debug */,
+				03D9D2092514A191002F3862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D9D20A2514A191002F3862 /* Build configuration list for PBXNativeTarget "Branchster-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D9D20B2514A191002F3862 /* Debug */,
+				03D9D20C2514A191002F3862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D9D20D2514A191002F3862 /* Build configuration list for PBXNativeTarget "Branchster-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D9D20E2514A191002F3862 /* Debug */,
+				03D9D20F2514A191002F3862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D9D2102514A191002F3862 /* Build configuration list for PBXNativeTarget "Branchster-macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D9D2112514A191002F3862 /* Debug */,
+				03D9D2122514A191002F3862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03D9D1DB2514A18E002F3862 /* Project object */;
+}
